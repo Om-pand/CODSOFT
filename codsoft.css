@@ -1,0 +1,120 @@
+body {
+      font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+      line-height: 1.6;
+      color: #334;
+      background-size: cover;
+      background-size: center;
+}
+header {
+    
+    color: #0a0a00;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #080101; 
+    font-weight: bold;
+}
+
+header nav ul li{ 
+    margin-right: 20px;
+    font-weight: bold;
+
+}
+
+header nav a {
+    color: #080801;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#introduction {
+    padding: 2em;
+    font-style: italic;
+    font-size: bolder;
+}
+
+#introduction img {
+    width: 500px ;
+    height: 500px;
+    margin: 20px auto;
+
+}
+
+#projects h3 {
+    padding: 2em;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+.project {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.project img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#resume {
+    padding: 2em;
+}
+
+#contact {
+    padding: 2em;
+}
+
+footer {
+    
+    color: #440ae2;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    font: size 80px; ;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li {
+    margin-right: 50px;
+}
+
+footer a {
+    color: #f80c0c;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+
+}
